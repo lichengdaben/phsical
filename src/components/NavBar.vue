@@ -13,10 +13,6 @@
                   :style="{ 'color': this.currentPage == 5 ? '#096BCC !important' : 'black' }">BOOKING<br>CONFIRMATION</router-link>
               </li>
               <li>
-                <router-link to="/workstationbooking/BookingDetails" class="cataloguebutton"
-                  :style="{ 'color': this.currentPage == 4 ? '#096BCC !important' : 'black' }">BOOKING<br>DETAILS</router-link>
-              </li>
-              <li>
                 <router-link to="/workstationbooking/WorkstationGroup" class="cataloguebutton"
                   :style="{ 'color': this.currentPage == 3 ? '#096BCC !important' : 'black' }">WORKSTATION<br>GROUP</router-link>
               </li>

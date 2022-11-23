@@ -1,5 +1,5 @@
 {
-  "name": "new-library",
+  "name": "physical",
   "version": "0.1.0",
   "private": true,
   "description": "## Project setup ``` npm install ```",
@@ -7,7 +7,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-icons": "vsvg -s ./svg-icons -t ./src/compiled-icons"
   },
   "main": "babel.config.js",
   "dependencies": {
@@ -18,11 +19,13 @@
     "@fortawesome/vue-fontawesome": "^2.0.8",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.10",
     "html2pdf.js": "^0.10.1",
     "nodejs": "^0.0.0",
     "vue": "^2.7.8",
     "vue-good-table": "^2.21.11",
     "vue-router": "^3.6.3",
+    "vue-svgicon": "^3.2.9",
     "vuesax": "^3.12.2",
     "vuex": "^3.6.2",
     "x2js": "^3.4.3",
@@ -38,6 +41,7 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "axios": "^0.27.2",
+    "babel-plugin-component": "^1.1.1",
     "bootstrap": "^4.6.2",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
@@ -46,8 +50,10 @@
     "portal-vue": "^2.1.6",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
+    "svg-sprite-loader": "^6.0.11",
     "vue-cli-plugin-axios": "^0.0.4",
     "vue-cli-plugin-bootstrap": "~0.4.0",
+    "vue-svg-icon": "^1.2.9",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {

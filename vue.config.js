@@ -1,14 +1,17 @@
 module.exports = {
-  devServer: {
-    proxy: {
-      '^/api': {
-        target: 'https://keycloak.interlib.com.cn',
-        changeOrigin: true
-      },
-    }
-  },
-publicPath:'/app/'
+    devServer: {
+        proxy: {
+            '^/api': {
+                target: 'http://47.244.166.242:37100',
+                changeOrigin: true
+            },
+        }
+        
+    },
+   
 }
+//publicPath:'/app/'
+
 
 
 
